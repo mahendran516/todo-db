@@ -1,0 +1,49 @@
+.todo{
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.todo h1 {
+  color: white;
+  text-align: center;
+}
+.todoinput{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color:  rgb(94 217 155);
+  padding: 25px;
+  border-radius: 20px;
+}
+.todoinput input{
+  width: 75%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.todoinput input:focus{
+  outline: none;
+}
+.todoinput button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(46 46 247);
+  color: white;
+  border: none;
+  width: 15%;
+}
+.todolist{
+  background-color:  rgb(94 217 155);
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.todolist h2 {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
